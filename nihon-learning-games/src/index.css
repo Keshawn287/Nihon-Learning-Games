@@ -1,4 +1,112 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Cool background colors for games 
+#0e0f12 --> Neutral Dark
+#0f172a --> Twightlight navy
+#1b133d --> Soft Purple
+#f5f5f7 -->Soft gray
+#f2efeb --> Muted gray
+#dbeafe --> soft blue
+#fff0f6 
+#f0f9ff
+#fef9c3
+#4fd1c5     (soft aqua)
+#3bc6b8     (slightly deeper)
+background: linear-gradient(145deg, #0e0f12, #1a1d24); --> Dark Gradient
+background: radial-gradient(circle at 50% 0%, #232042, #0e0f12); --> Galaxy Gradient
+background: linear-gradient(135deg, #f0f9ff, #fff0f6); --> Playful Gradient
+
+
+*/
+
 :root {
+  --bg: #fef9c3;
+  --card: #14161b;
+  --text: #e9edf2;
+  --accent: #ff8fb7;
+  --accent-soft: #ffb7d5;
+  --ring: #3a3f54;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  /* background-color: var(--bg); */
+  background: radial-gradient(circle at 50% 0%, #232042, #0e0f12);
+  color: var(--text);
+}
+
+/* HEADER AND TITLE SECTION */
+
+.header-section {
+  position: relative;
+  padding: 1rem 0 2rem;
+  border-bottom: 1px solid #222839;
+}
+
+.top-menu-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 0.75rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-left: auto;
+}
+
+/* this JSX <Link to="/">Home</Link> reference is the same as <a href="#" class="name"></a> in html/css */
+.nav-links a {
+  text-decoration: none;
+  padding: 0.4rem 0.7rem;
+  border-radius: 999px;
+  transition: color 0.2s ease, background-color 0.2s ease;
+  color: var(--text);
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+  color: var(--text);
+  background: #1b1f27;
+  outline: none;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 2.5rem 0 1rem;
+  color: var(--text);
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.15;
+  margin: 0 0 0.5rem 0;
+}
+
+/* FOOTER SECTION */
+
+/* Footer section */
+.footer-section {
+  border-top: 1px solid #222839;
+  margin-top: 1rem;
+  padding: 1.25rem 0 2.5rem;
+  text-align: center;
+}
+
+/* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +173,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */

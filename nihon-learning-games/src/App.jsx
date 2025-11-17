@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage.jsx";
 import MainLayout from "./layout/MainLayout.jsx";
 import NumberQuiz from "./components/numberGames/NumberQuiz.jsx";
+import "./index.css";
 
 function App() {
   return (

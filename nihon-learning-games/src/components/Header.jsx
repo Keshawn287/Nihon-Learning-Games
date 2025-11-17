@@ -4,10 +4,17 @@ export default function Header() {
   return (
     <header className="header-section">
       <div className="container">
-        <h1>Japanese Learning Games</h1>
-        <nav>
-          <Link to="/">Home</Link>
+        <nav className="top-menu-bar">
+          <ul className="nav-links">
+            <li className="link">
+              <Link to="/">Home</Link>
+            </li>
+            <li className="link">
+              <Link to="/">Home</Link>
+            </li>
+          </ul>
         </nav>
+        <h1 className="hero">Japanese Learning Games</h1>
       </div>
     </header>
   );
