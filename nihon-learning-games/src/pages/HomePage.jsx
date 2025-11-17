@@ -9,6 +9,7 @@ export default function HomePage() {
           <GameCard
             to="game/numbers"
             title="Number Quiz"
+            level="Beginer"
             description="Practice Japanese numbers from 1–10."
           />
         </div>
