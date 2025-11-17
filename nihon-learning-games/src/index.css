@@ -106,6 +106,57 @@ body {
   text-align: center;
 }
 
+/* Grid for game card set up on HomePage.jsx file */
+.card-grid {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); */
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+/* Individual Game Card styling for GameCard.jsx file done outside of row styling in HomePage.jsx */
+.game-card {
+  border: 1px solid #262c3b;
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: var(--ring);
+  transition: transform 0.08s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  text-decoration: none;
+}
+
+.game-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3), 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-color: #2e3a4f;
+}
+
+.game-card-header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  color: var(--text);
+}
+
+.game-card-header h2 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.game-card-level {
+  font-weight: 700;
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 18%, transparent);
+  padding: 0.2rem 0.55rem;
+  border-radius: 8px;
+}
+.game-card-description {
+  color: var(--text);
+  margin: 0.25rem 0 0.6rem 0;
+  font-style: italic;
+}
+
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
