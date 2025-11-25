@@ -1,0 +1,64 @@
+.game-section {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.quiz-card {
+  border: 1px solid #262c3b;
+  border-radius: 16px;
+  padding: 1.5rem;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.quiz-progress {
+  opacity: 0.7;
+  margin-bottom: 0.5rem;
+}
+
+.quiz-question {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* Input quiz */
+.quiz-card input {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: 1px solid #262c3b;
+  background: #14161b;
+  color: #e9edf2;
+}
+
+/* MCQ buttons */
+.mcq-options {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.mcq-option-btn {
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 10px;
+  border: 1px solid #2d3146;
+  background: #2d3146;
+  color: white;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+/* Applying same hover style to univeral buttons */
+.mcq-option-btn:hover {
+  background: #3c415a;
+  transform: translateY(-2px);
+}
+
+.mcq-option-btn:active {
+  transform: translateY(0);
+}
+
+.quiz-feedback {
+  margin-top: 1rem;
+  font-weight: bold;
+}
