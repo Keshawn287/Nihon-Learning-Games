@@ -1,0 +1,102 @@
+{
+  "1": {
+    "english": "one",
+    "kanji": "一",
+    "hiragana": "いち"
+  },
+  "2": {
+    "english": "two",
+    "kanji": "二",
+    "hiragana": "に"
+  },
+  "3": {
+    "english": "three",
+    "kanji": "三",
+    "hiragana": "さん"
+  },
+  "4": {
+    "english": "four",
+    "kanji": "四",
+    "hiragana": "し"
+  },
+  "5": {
+    "english": "five",
+    "kanji": "五",
+    "hiragana": "ご"
+  },
+  "6": {
+    "english": "six",
+    "kanji": "六",
+    "hiragana": "ろく"
+  },
+  "7": {
+    "english": "seven",
+    "kanji": "七",
+    "hiragana": "しち"
+  },
+  "8": {
+    "english": "eight",
+    "kanji": "八",
+    "hiragana": "はち"
+  },
+  "9": {
+    "english": "nine",
+    "kanji": "九",
+    "hiragana": "きゅう"
+  },
+  "10": {
+    "english": "ten",
+    "kanji": "十",
+    "hiragana": "じゅう"
+  },
+  "11": {
+    "english": "eleven",
+    "kanji": "十一",
+    "hiragana": "じゅういち"
+  },
+  "12": {
+    "english": "twelve",
+    "kanji": "十二",
+    "hiragana": "じゅうに"
+  },
+  "13": {
+    "english": "thirteen",
+    "kanji": "十三",
+    "hiragana": "じゅうさん"
+  },
+  "14": {
+    "english": "fourteen",
+    "kanji": "十四",
+    "hiragana": "じゅうし"
+  },
+  "15": {
+    "english": "fifteen",
+    "kanji": "十五",
+    "hiragana": "じゅうご"
+  },
+  "16": {
+    "english": "sixteen",
+    "kanji": "十六",
+    "hiragana": "じゅうろく"
+  },
+  "17": {
+    "english": "seventeen",
+    "kanji": "十七",
+    "hiragana": "じゅうしち"
+  },
+  "18": {
+    "english": "eighteen",
+    "kanji": "十八",
+    "hiragana": "じゅうはち"
+  },
+  "19": {
+    "english": "nineteen",
+    "kanji": "十九",
+    "hiragana": "じゅうきゅう"
+  },
+  "20": {
+    "english": "twenty",
+    "kanji": "二十",
+    "hiragana": "にじゅう"
+  }
+}
